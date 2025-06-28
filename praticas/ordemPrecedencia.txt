@@ -1,0 +1,6 @@
+ORDEM DE PRECEDÊNCIA DOS OPERADORES EM PYTHON
+
+1) ()
+2) **
+3) * / // % - na ordem que aparecer
+4) + -
