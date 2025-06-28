@@ -7,5 +7,5 @@ area = largura * altura
 
 litros = area / 2
 
-print(f'A quantidade de litros necessários para pintar uma parede de {largura}m X {altura}m são {litros}l de tinta.')
+print(f'A quantidade de litros necessários para pintar uma parede de {largura}m X {altura}m são {litros:.2f}l de tinta.')
 
