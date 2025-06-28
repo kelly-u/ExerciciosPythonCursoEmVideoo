@@ -2,6 +2,6 @@
 
 salario = float(input('Digite o valor do salário: R$'))
 
-salarioAumento = salario + (salario * 0.15)
+salarioAumento = salario + (salario * 15/100)
 
-print(f'O salário de R${salario}, foi aumentado para R${salarioAumento} em 15%.')
+print(f'O salário de R${salario:.2f}, foi aumentado para R${salarioAumento:.2f} em 15%.')
