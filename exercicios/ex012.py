@@ -3,4 +3,4 @@
 preco = float(input('Digite o valor do produto: R$'))
 precoDesconto = preco - (preco * 5/100)
 
-print(f'O valor do produto passou de R${preco} para R${precoDesconto} com 5% de desconto.')
+print(f'O valor do produto passou de R${preco:.2f} para R${precoDesconto:.2f} com 5% de desconto.')
