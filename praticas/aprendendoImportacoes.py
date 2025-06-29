@@ -7,8 +7,8 @@ raiz = math.sqrt(numero)
 
 print(f'A raiz quadrada de {numero} é {raiz:.1f}')
 
-print(f'A raiz quadrada de {numero} é {math.ceil(raiz)}.')
+print(f'A raiz quadrada de {numero} arredondada pra cima é {math.ceil(raiz)}.')
 # ceil = arredondar pra cima
 
-print(f'A raiz quadrada de {numero} é {math.floor(raiz)}.')
+print(f'A raiz quadrada de {numero} arredondada pra baixo é {math.floor(raiz)}.')
 # floor = arredondar pra baixo
