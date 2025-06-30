@@ -3,7 +3,7 @@
 # Primeiro: Ana
 # Último: Souza
 
-nome = input('Digite seu nome: ')
+nome = input('Digite seu nome: ').strip()
 nomeDividido = nome.split()
 
 print(f'Primeiro: {nomeDividido[0]}')
