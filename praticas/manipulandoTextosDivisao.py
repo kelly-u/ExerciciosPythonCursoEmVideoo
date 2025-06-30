@@ -15,3 +15,8 @@ print(dividido[0]) # Curso
 print(dividido[1]) # em
 print(dividido[2]) # Vídeo
 print(dividido[3]) # Python
+
+######### DICAAAAA #########
+# Posso pegar a letra específica da palavra
+print(dividido[0][2]) # Curso -> r
+
