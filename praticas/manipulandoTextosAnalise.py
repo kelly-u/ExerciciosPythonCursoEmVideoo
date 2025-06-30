@@ -19,5 +19,8 @@ print(frase.find('deo')) # 4
 # find (2) - Com uma string que não está contida na string em questão.
 print(frase.find('Android'))  # -1
 
+# rfind - Vai dizer a última vez que String ou letra aparece. O 'r' é de right -> direita
+print(frase.rfind('o'))  # 19
+
 # in - Ele retorna um bool para afirmar ou negar se a string está contida dentro da variável 'frase'
 print('Curso' in frase) # True
