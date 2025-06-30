@@ -1,4 +1,10 @@
-# Faça um progrma que leia uma frase pelo teclado e mostre:
+# Faça um programa que leia uma frase pelo teclado e mostre:
 # Quantas vezes aparece a letra 'A'.
 # Em que posição ela aparece a primeira vez.
-# Em que posição la aparece a última vez.
+# Em que posição ela aparece a última vez.
+
+frase =  input('Digite uma frase: ')
+
+print(f'A letra "A" aparece {(frase.upper()).count('A')} vezes na frase!')
+print(f'A letra "A" aparece a primeira vez na posição {(frase.upper()).find('A')}!')
+print(f'A letra "A" aparece a última vez na posição {(frase.upper()).rfind('A')}!')
