@@ -14,7 +14,7 @@ print(frase.upper()) # CURSO EM VÍDEO PYTHON
 print(frase.lower()) # curso em vídeo python
 
 # capitalize - Transforma só a primeira letra da string em maiúscula e o resto em minúscula. Mas, a substituição é secundária, não é diretamente na variável.
-print(frase.capitalize())
+print(frase.capitalize()) # Curso em vídeo python
 
 # title - Transforma cada primeira palavra da string em maiúscula. Ele faz isso através dos espaços. A cada espaço, ele faz um capitalize de cada palavra.
-print(frase.title())
+print(frase.title()) # Curso Em Vídeo Python
