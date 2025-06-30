@@ -4,7 +4,7 @@
 frase = 'Curso em Vídeo Python'
 print(frase)
 
-# len - amanho da frase
+# len - tamanho da frase
 print(len(frase)) # 21
 
 # count (1) - Conta a quantidade de vezes que um determinado caractere aparece
