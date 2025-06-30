@@ -3,8 +3,8 @@
 # Em que posição ela aparece a primeira vez.
 # Em que posição ela aparece a última vez.
 
-frase =  input('Digite uma frase: ')
+frase =  input('Digite uma frase: ').upper()
 
-print(f'A letra "A" aparece {(frase.upper()).count('A')} vezes na frase!')
-print(f'A letra "A" aparece a primeira vez na posição {(frase.upper()).find('A')}!')
-print(f'A letra "A" aparece a última vez na posição {(frase.upper()).rfind('A')}!')
+print(f'A letra "A" aparece {frase.count('A')} vezes na frase!')
+print(f'A letra "A" aparece a primeira vez na posição {frase.find('A')}!')
+print(f'A letra "A" aparece a última vez na posição {frase.rfind('A')}!')
