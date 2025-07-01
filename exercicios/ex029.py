@@ -9,3 +9,5 @@ if velocidadeCarro > 80:
     multa = 7.00 * excessoVelocidade
 
     print(f'Seu carro foi multado em R${multa:.2f} por ter passado {excessoVelocidade}km/h do limite de velocidade de 80km/h')
+else:
+    print('Muito bem, dirija com segurança!')
