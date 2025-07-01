@@ -6,3 +6,8 @@ if viagemDistancia <= 200:
     print(f'O valor total da passagem para {viagemDistancia}km é de R${viagemDistancia * 0.50:.2f}')
 else:
     print(f'O valor total da passagem para {viagemDistancia}km é de R${viagemDistancia * 0.45:.2f}')
+
+'''
+preco = viagemDistancia * 0.5 if viagemDistancia <= 200 else viagemDistancia * 0.45
+print(f'O valor total da passagem para {viagemDistancia}km é de R${preco:.2f}')
+'''
