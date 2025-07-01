@@ -3,6 +3,7 @@
 # O programa deverá escrever na tela se o usuário venceu ou perdeu.
 
 from random import randint
+from time import sleep
 
 numeroComputador = randint(1,5)
 print(numeroComputador)
@@ -16,7 +17,9 @@ while True:
     numeroUsuario = int(input('Estou pensando em um número... Você consegue adivinhar? Diga qual é... '))
 
     if numeroUsuario == numeroComputador:
-        print('Você acertou!! :)')
+        print('Você ganhou!!')
         break
     else:
-        print('Você errou! :(')
+        print('PROCESSANDO...')
+        sleep(2)
+        print('Eu ganhei e você perdeu!!')
